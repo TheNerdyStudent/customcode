@@ -1,2 +1,2 @@
-# Patreon button
-A lightweight button to your Patreon.
+# Custom code
+Custom code used on [my large site](https://www.thenerdystudent.com).
