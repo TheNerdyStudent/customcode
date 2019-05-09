@@ -30,6 +30,10 @@
 				margin-top: 33px;
 				margin-bottom: 23px;
 			}
+			h2 {
+				font-family: Verdana, Geneva, sans-serif;
+				font-size: 20px;
+			}
 			a { 
 				color: #5ba545;
 			}
@@ -70,6 +74,7 @@
 			<h1>Error establishing database connection.</h1>
 			<hr />
 			<p>
+				<h2>If you came from a search, simply refreshing the page will fix this error. Sorry about that!</h2>
 				Something went wrong - we couldn't connect to the database. Please return to the homepage and try again.
 				<br /><br />
 				<button onclick="window.location.href='https://www.thenerdystudent.com';">Go to The Nerdy Student homepage</button>
