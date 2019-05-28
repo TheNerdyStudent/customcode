@@ -1,0 +1,99 @@
+h2 {
+    font-size: 30px;
+}
+::selection {
+    background-color: rgb(199, 228, 190);
+	background-color: rgba(91,165,69,0.3);
+}
+.td-post-content a {
+	background: linear-gradient(to bottom, rgba(91,165,69,0.5) 0%, rgba(91,165,69,0.5) 100%) repeat-x 0 100%;
+	background-size: 4px 4px;
+	color: #000;
+	text-decoration: none;
+	transition: background-size .2s;
+}
+.td-post-content a:hover {
+	background-size: 4px 50px;
+	text-decoration: none;
+	color: black;
+}
+.more-link {
+    background-color: #5ba545 !important;
+    color: white !important;
+}
+.more-link:hover {
+    transition: unset;
+}
+.td-header-rec-wrap .td-adspot-title {
+margin-bottom: 0;
+top: 0;
+}
+.td-post-sharing-bottom {
+		display: none;
+}
+.disqusbutton {
+    background-color: #2e75e8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.disqusbutton:hover {
+    background-color: #326ed1;
+}
+.supbtn {
+	color: white !important;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.patreonbutton {
+    background-color: #f96854;
+}
+.patreonbutton:hover {
+    background-color: #e25d4a;
+}
+.coffeebtn {
+    background-color: #FF813F;
+}
+.coffeebtn:hover {
+    background-color: #db733d;
+}
+.amazonbtn {
+    background-color: #FF9B00;
+}
+.amazonbtn:hover {
+    background-color: #e8910b;
+}
+.wrapper {
+  text-align: center;
+}
+.footer-logo-wrap img { display: none; }
+.td-module-comments, .entry-review-stars {
+	display: none;
+}
+.anchor{
+	display: block;
+	height: 57.5px;
+	margin-top: -57.5px;
+	visibility: hidden;
+}
+.ad-container {
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+.nospons {
+    display: none;
+}
+.adblock {
+    text-align: center;
+    color: #bbb;
+    padding-top: 10px;
+}
